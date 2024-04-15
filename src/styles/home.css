@@ -1,0 +1,30 @@
+body{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.makeagif.com%2Fmedia%2F4-24-2017%2FxzMHOc.gif&f=1&nofb=1&ipt=27dc7f25733ba1e0b07a9e1a01dbe491c547b19a549daf06b7dbdf44d6e37157&ipo=images');
+    background-size: cover;
+    font-family: Play;
+}
+
+li img{
+    opacity: 65%;
+    border-bottom: solid 2px #ffc107;
+}
+
+li img:hover{
+    opacity: 100%;
+    border-bottom: solid 5px #ffc107;
+}
+
+.card{
+    background: black !important;
+    border: none;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+  }
+
+::-webkit-scrollbar-thumb {
+    height: 5px;
+    background: #ffc107; 
+}
