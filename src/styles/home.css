@@ -4,6 +4,7 @@ body{
     font-family: Play;
 }
 
+/* sadly too much
 li img{
     opacity: 65%;
     border-bottom: solid 2px #ffc107;
@@ -18,6 +19,7 @@ li img:hover{
     background: black !important;
     border: none;
 }
+*/
 
 ::-webkit-scrollbar {
     height: 6px;

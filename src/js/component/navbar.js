@@ -15,7 +15,10 @@ export const Navbar = () => {
 			</Link>
 			<div className="dropdown">
 				<button className="btn btn-warning btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-					Favorites 
+					Favorites
+					<span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-light text-dark">
+						{store.favorites.length}
+					</span>
 				</button>
 					<ul className="dropdown-menu dropdown-menu-end">
 					{store.favorites.length > 0
